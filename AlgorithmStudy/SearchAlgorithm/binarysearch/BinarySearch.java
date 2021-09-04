@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * @author HyeonTaeChoi
+ * @author hyeontae95
  * @version 1.0 2021.09.04
  * Search (탐색) : 저장된 정보들 중에 원하는 값을 찾는 것
  * BinarySearch(이분탐색) : 정렬되어 있는(이분 탐색의 주요 조건) 배열에서 데이터를 찾으려 시도할 때, 탐색 범위를 절반씩 줄여가며 찾아가는 Search 방법이다.
