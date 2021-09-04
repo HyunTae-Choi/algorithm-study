@@ -3,6 +3,8 @@ package binarysearch;
 import java.util.Arrays;
 import java.util.Scanner;
 
+import selectionsort.SelectionSort;
+
 /**
  * @author hyeontae95
  * @version 1.0 2021.09.04
@@ -18,7 +20,7 @@ public class BinarySearch {
 
 		System.out.println("배열 : " + Arrays.toString(arr));
 
-		int[] arrSort = SelectionSort(arr);
+		int[] arrSort = SelectionSort.SortAsc(arr);
 		System.out.println("오름차순 배열 : " + Arrays.toString(arrSort));
 		
 		System.out.print("탐색할 숫자 : "); 
@@ -35,21 +37,7 @@ public class BinarySearch {
 		scanner.close();
 
 	}
-
-	// 오름차순 선택정렬 메소드
-	public static int[] SelectionSort(int[] arr) {
-		for (int i = 0; i < arr.length; i++) {
-			for (int j = i + 1; j < arr.length; j++) {
-				if (arr[i] > arr[j]) {
-					int temp = arr[i];
-					arr[i] = arr[j];
-					arr[j] = temp;
-				}
-			}
-		}
-		return arr;
-	}
-
+	
 	// 이분탐색 메소드
 	public static int Search(int[] arr, int find) {
 		int min = 0; // 배열 중 시작 번째
