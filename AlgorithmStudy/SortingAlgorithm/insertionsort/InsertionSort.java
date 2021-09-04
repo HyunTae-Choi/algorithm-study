@@ -7,6 +7,11 @@ import java.util.Arrays;
  * @version 1.0 2021.09.04
  * Sort (정렬) : 일정한 순서대로 열거하는 알고리즘
  * InsertionSort (삽입정렬) : 현재 비교하고자 하는 타겟과 그 이전의 원소들과 비교하며 자리를 교환하는 정렬 알고리즘
+ * 장점
+ * 1. 추가적인 메모리 소비가 작다.
+ * 2. 거의 정렬 된 경우 매우 효율적이다. 
+ * 단점
+ * 1. 데이터의 상태에 따라서 성능 편차가 매우 크다.
  * */
 public class InsertionSort {
 	public static void main(String[] args) {
