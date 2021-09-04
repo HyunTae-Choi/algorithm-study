@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author hyeontae95
  * @version 1.0 2021.09.04
  * Sort (정렬) : 일정한 순서대로 열거하는 알고리즘
- * SelectionSort (선택정렬) : 현재 위치에 들어갈 데이터를 찾아 선택하는 알고리즘
+ * SelectionSort (선택정렬) : 현재 위치에 들어갈 데이터를 찾아 선택하여 정렬하는 알고리즘
  * */
 public class SelectionSort {
 	public static void main(String[] args) {
