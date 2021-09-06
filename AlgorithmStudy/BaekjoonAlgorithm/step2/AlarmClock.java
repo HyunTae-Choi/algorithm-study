@@ -16,14 +16,14 @@ public class AlarmClock {
 		int b = Integer.parseInt(st.nextToken());
 		
 		if(a == 0) {
-			if(b > 45) {
+			if(b >= 45) {
 				System.out.println(a + " " + (b - 45));
 			} else {
 				a = 23;
 				System.out.println(a + " " + (b + 15));
 			}
 		} else {
-			if(b > 45) {
+			if(b >= 45) {
 				System.out.println(a + " " + (b - 45));
 			} else {
 				a--;
