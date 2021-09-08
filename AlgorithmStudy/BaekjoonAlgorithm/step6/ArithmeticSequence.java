@@ -16,7 +16,6 @@ public class ArithmeticSequence {
 			boolean result = check(i);
 			if(result) {
 				count++;
-				System.out.println(i);
 			}
 		}
 		
