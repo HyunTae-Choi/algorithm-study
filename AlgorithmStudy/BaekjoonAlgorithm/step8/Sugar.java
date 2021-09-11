@@ -3,25 +3,22 @@ package step8;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigInteger;
+import java.util.StringTokenizer;
 
 public class Sugar {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
+		String testCase = br.readLine();
+		StringTokenizer st = new StringTokenizer(testCase, " ");
 		
-		if (testCase == 4 || testCase == 7) {
-			System.out.println(-1);
-		}
-		else if (testCase % 5 == 0) {
-			System.out.println(testCase / 5);
-		}
-		else if (testCase % 5 == 1 || testCase % 5 == 3) {
-			System.out.println((testCase / 5) + 1);
-		}
-		else if (testCase % 5 == 2 || testCase % 5 == 4) {
-			System.out.println((testCase / 5) + 2);
-		}
+		BigInteger a = new BigInteger(st.nextToken());
+		BigInteger b = new BigInteger(st.nextToken());
+		
+		a = a.add(b);
+		
+		System.out.println(a);
 		
 	}
 
