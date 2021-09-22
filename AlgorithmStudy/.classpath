@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="SearchAlgorithm"/>
 	<classpathentry kind="src" path="SortingAlgorithm"/>
 	<classpathentry kind="src" path="BaekjoonAlgorithm"/>
+	<classpathentry kind="src" path="CodeUpBasic100"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
